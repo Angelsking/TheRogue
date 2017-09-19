@@ -1,0 +1,43 @@
+Bot Change log 
+V 1.0.1
+$Destiny/Division CMD structure removed from the bot
+$netflix and $removenetflix CMD structure has been added to the bot
+
+V1.0.2
+$netflix CMD structure changed to $TV
+$Ping (server responds with Pong!
+$Commands (List of available commands)
+$Roles (List of avaialbe self  assignable roles)
+Updated $help and $removehelp CMDs
+
+V1.0.2.1
+$SetGame (Changes the game displayed by the bot)
+** This command is a Admin only command
+
+V1.0.2.2
+Added $AdminCMDs to show admin only commands
+Added new members joining the server to be assigned to role
+
+V1.0.3
+Completely rebuilt the $help command to display all available commands to members and admins along with $help [Command] so users can get a more detailed look at a command.
+Removed all role commands ie. $PC and added $iam. (use $iam [Role] to assign yourself a role ie. $iam PC)
+Removed all remove role commands $removePC and added $iamnot. (use $iamnot [Role] to remove a role from yourself ie. $iamnot PC)
+**NOTE** When entering these commands you have to enter the role exactly as it shows on the server
+Added a GFX update to the $roles command
+Added $Feedback this command is to send feedback to me directly from the bot ie. bugreports or anything you need to bring to my attention directly. 
+**Admin commands update**
+Added $CreateRole to add a new role to the server.
+
+V1.0.3.1
+Polished up the $roles command and made it automated
+
+V1.0.4
+Bot has been connected to a database (DB) to automate the new admin commands 
+*** Admin Commands Update***
+$aron - This will set Autorole on to the server
+$setar - This will set the role you want to use for Autorole ie. $setar Member
+
+V1.0.4.1
+Bot Discord.net version updated to 1.0.2 
+***Admin Command Update***
+$setwelcome - this will set the welcome message that is Pmed to new members 
