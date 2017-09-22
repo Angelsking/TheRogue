@@ -41,3 +41,9 @@ V1.0.4.1
 Bot Discord.net version updated to 1.0.2 
 ***Admin Command Update***
 $setwelcome - this will set the welcome message that is Pmed to new members 
+
+V1.0.5
+DB has been updated to reflect the new admin command $DenyRole
+$iam and $iamnot have been updated so that any roles added to the DB with the new admin command $DenyRole will be ignored and not added to the user.
+***Admin Command Update***
+$DenyRole - This command will add the role you selected to the DB as a ignored role for $iam and $iamnot so that users can not add or remove these roles form them selfs. When using this role please be sure to add 1 role at a time or the command will not work. ie. $DenyRole Member (when a user tries to use $iam Member it will deny them.
