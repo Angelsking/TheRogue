@@ -52,3 +52,8 @@ V1.0.5.1
 Admin Command Update***
 $SetWarnRole - this will set the role you select as the role added to the user when using the $warn command. Pleae be sure to add the role you selected using the $DenyRole command so that the user can not remove the role after it is added.
 $Warn - Warns a user for a specific reason. ie. $Warn @AngelsKing#5027 Spamming
+
+V1.0.5.2
+Added ping between discord servers and the host server to the $Ping command
+***Admin Command Update***
+Removed $SetGame command
