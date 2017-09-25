@@ -57,3 +57,7 @@ V1.0.5.2
 Added ping between discord servers and the host server to the $Ping command
 ***Admin Command Update***
 Removed $SetGame command
+
+V1.0.5.3
+***Admin Command Update***
+Changed $CreateRole to $AddRole
