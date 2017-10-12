@@ -66,3 +66,10 @@ V1.0.5.3.1
 $WelcomeMsg has been added to display the servers welcome message. 
 Cleaned up the bot links added to the welcome message. 
 Updated the DB to allow longer welcome messages (BUG). 
+
+V1.0.5.4
+***Admin Command Update***
+$Clean - This will clean a specific users messages from the channel you use the command 
+Use: $clean @AngelsKing 10 (This will remove the last 10 messages @AngelsKing has sent on the server)
+!!!Owner Command Update!!!
+$Restart - This command is usable by the owner of the bot only (me) to restart the bot in the event of a hang
